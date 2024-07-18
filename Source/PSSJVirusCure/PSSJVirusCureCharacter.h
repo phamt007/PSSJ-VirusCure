@@ -37,7 +37,8 @@ class APSSJVirusCureCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
 	UInputAction* MoveAction;
 
-
+	/** Variables */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables") float money;
 	
 public:
 	APSSJVirusCureCharacter();
